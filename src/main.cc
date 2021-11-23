@@ -1,5 +1,3 @@
-#include <array>
-#include <random>
 #include <future>
 #include <thread>         // std::this_thread::sleep_for
 #include <chrono>         // std::chrono::seconds
@@ -7,8 +5,6 @@
 #include <unistd.h>
 #include <iostream>    // for cout
 #include <fstream>
-#include <queue>       // for queue
-#include <vector>      // for vector
 //control de señales
 void signal_handler( int signal_num ) {	
     switch (signal_num){
